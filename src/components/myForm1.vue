@@ -33,9 +33,6 @@
           </div>
         </div>
       </div>
-      <div class="has-text-centered">
-        <button class="button is-primary">次へ進む</button>
-      </div>
     </div>
   </div>
 </div>
@@ -44,7 +41,7 @@
 
 <script>
 export default {
-  name: 'Form',
+  name: 'myForm1',
 }
 </script>
 
