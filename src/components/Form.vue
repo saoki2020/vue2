@@ -1,0 +1,54 @@
+<template>
+<div class="container">
+  <div class="columns is-centered">
+    <div class="column is-half">
+      <div class="box">
+        <div>
+          <p>step1</p>
+        </div>
+        <div class="column">
+          <div class="has-background-primary">
+            <p class="has-text-centered">お客様の情報を入力してください</p>
+          </div>
+          <div>
+            <form class="column">
+              <div class="field">
+              <label class="label">-性別-</label>
+                <div class="control">
+                  <label class="radio">
+                    <input type="radio" name="sex">男性
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="sex">女性
+                  </label>
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">-生年月日-</label>
+                <div class="control">
+                <input type="date" class="input">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="has-text-centered">
+        <button class="button is-primary">次へ進む</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</template>
+
+<script>
+export default {
+  name: 'Form',
+}
+</script>
+
+<style scoped>
+
+
+</style>
