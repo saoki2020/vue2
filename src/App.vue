@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+
     <myForm1 v-if="formNum === 1"/>
     <myForm2 v-if="formNum === 2"/>
     <myForm3 v-if="formNum === 3"/>
