@@ -1,0 +1,79 @@
+[33mcommit e23cd53226730d4f728ca9bb32f2085880957e7f[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m)[m
+Reflog: HEAD@{0} (saoki2020 <md.mendelevium101@gmail.com>)
+Reflog message: checkout: moving from master to develop
+Author: saoki2020 <md.mendelevium101@gmail.com>
+Date:   Fri Nov 12 18:45:40 2021 +0900
+
+    vue②-1 1st time
+
+[33mcommit 1406c735987d66576767af0a434a6ede9c250843[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Reflog: HEAD@{1} (saoki2020 <md.mendelevium101@gmail.com>)
+Reflog message: checkout: moving from develop to master
+Author: saoki2020 <md.mendelevium101@gmail.com>
+Date:   Wed Nov 10 16:15:48 2021 +0900
+
+    first commit
+
+[33mcommit e23cd53226730d4f728ca9bb32f2085880957e7f[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m)[m
+Reflog: HEAD@{2} (saoki2020 <md.mendelevium101@gmail.com>)
+Reflog message: commit: vue②-1 1st time
+Author: saoki2020 <md.mendelevium101@gmail.com>
+Date:   Fri Nov 12 18:45:40 2021 +0900
+
+    vue②-1 1st time
+
+[33mcommit edaef0cec96018b796af5356d20ed66ab2c4504d[m
+Reflog: HEAD@{3} (saoki2020 <md.mendelevium101@gmail.com>)
+Reflog message: reset: moving to edaef0cec96018b796af5356d20ed66ab2c4504d
+Author: saoki2020 <md.mendelevium101@gmail.com>
+Date:   Fri Nov 12 11:51:06 2021 +0900
+
+    フォームの形だけ
+
+[33mcommit edaef0cec96018b796af5356d20ed66ab2c4504d[m
+Reflog: HEAD@{4} (saoki2020 <md.mendelevium101@gmail.com>)
+Reflog message: commit: フォームの形だけ
+Author: saoki2020 <md.mendelevium101@gmail.com>
+Date:   Fri Nov 12 11:51:06 2021 +0900
+
+    フォームの形だけ
+
+[33mcommit 22cc995ed985a58a8fa3f22aa6fc445631e4a42e[m
+Reflog: HEAD@{5} (saoki2020 <md.mendelevium101@gmail.com>)
+Reflog message: checkout: moving from master to develop
+Author: saoki2020 <md.mendelevium101@gmail.com>
+Date:   Tue Nov 9 19:58:31 2021 +0900
+
+    init
+
+[33mcommit 1406c735987d66576767af0a434a6ede9c250843[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Reflog: HEAD@{6} (saoki2020 <md.mendelevium101@gmail.com>)
+Reflog message: commit: first commit
+Author: saoki2020 <md.mendelevium101@gmail.com>
+Date:   Wed Nov 10 16:15:48 2021 +0900
+
+    first commit
+
+[33mcommit 22cc995ed985a58a8fa3f22aa6fc445631e4a42e[m
+Reflog: HEAD@{7} (saoki2020 <md.mendelevium101@gmail.com>)
+Reflog message: checkout: moving from develop to master
+Author: saoki2020 <md.mendelevium101@gmail.com>
+Date:   Tue Nov 9 19:58:31 2021 +0900
+
+    init
+
+[33mcommit 22cc995ed985a58a8fa3f22aa6fc445631e4a42e[m
+Reflog: HEAD@{8} (saoki2020 <md.mendelevium101@gmail.com>)
+Reflog message: checkout: moving from master to develop
+Author: saoki2020 <md.mendelevium101@gmail.com>
+Date:   Tue Nov 9 19:58:31 2021 +0900
+
+    init
+
+[33mcommit 22cc995ed985a58a8fa3f22aa6fc445631e4a42e[m
+Reflog: HEAD@{9} (saoki2020 <md.mendelevium101@gmail.com>)
+Reflog message: commit (initial): init
+Author: saoki2020 <md.mendelevium101@gmail.com>
+Date:   Tue Nov 9 19:58:31 2021 +0900
+
+    init

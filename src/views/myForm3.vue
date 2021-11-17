@@ -24,6 +24,10 @@
       </div>
     </div>
   </div>
+  <div class="has-text-centered">
+    <router-link :to="{name:'myForm2'}"><button class="button is-primary">前へ戻る</button></router-link>
+    <router-link :to="{name:'myForm3'}"><button class="button is-primary">次へ進む</button></router-link>
+  </div>
 </div>
 
 </template>
