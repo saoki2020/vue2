@@ -16,10 +16,10 @@
                 <label class="label">現在、生命保険に加入されていますか？</label>
                 <div class="control">
                   <label class="radio">
-                    <input type="radio" name="question1" @click="showFlag1 = true">はい
+                    <input type="radio" name="question1" @click="showFlag1 = true" v-model="question1" value="はい">はい
                   </label>
                   <label class="radio">
-                    <input type="radio" name="question1" @click="showFlag1 = true">いいえ
+                    <input type="radio" name="question1" @click="showFlag1 = true" v-model="question1" value="いいえ">いいえ
                   </label>
                 </div>
               </div>
@@ -29,10 +29,10 @@
                   <label class="label">現在入院中ですか？または、最近3か月以内に医師の診察・検査の結果、入院・手術を勧められたことはありますか？</label>
                   <div class="control">
                     <label class="radio">
-                      <input type="radio" name="question2" @click="showFlag2 = true">はい
+                      <input type="radio" name="question2" @click="showFlag2 = true" v-model="question2" value="はい">はい
                     </label>
                     <label class="radio">
-                      <input type="radio" name="question2" @click="showFlag2 = true">いいえ
+                      <input type="radio" name="question2" @click="showFlag2 = true" v-model="question2" value="いいえ">いいえ
                     </label>
                   </div>
                 </div>
@@ -43,10 +43,10 @@
                   <label class="label">過去5年以内に、病気やけがで、手術を受けたことまたは継続して7日以上の入院をしたことがありますか？</label>
                   <div class="control">
                     <label class="radio">
-                      <input type="radio" name="question3">はい
+                      <input type="radio" name="question3" v-model="question3" value="はい">はい
                     </label>
                     <label class="radio">
-                      <input type="radio" name="question3">いいえ
+                      <input type="radio" name="question3" v-model="question3" value="いいえ">いいえ
                     </label>
                   </div>
                 </div>
@@ -63,7 +63,6 @@
     <router-link :to="{name:'myForm1'}"><button class="button is-primary">前へ戻る</button></router-link>
     <router-link :to="{name:'myForm3'}"><button class="button is-primary">次へ進む</button></router-link>
   </div>
-
 </div>
 </template>
 
@@ -76,6 +75,32 @@ export default {
       showFlag2:false
     }
   },
+  computed: {
+    question1: {
+      get() {
+        return this.$store.state.question1
+      },
+      set(value) {
+        this.$store.state.question1 = value
+      }
+    },
+    question2: {
+      get() {
+        return this.$store.state.question2
+      },
+      set(value) {
+        this.$store.state.question2 = value
+      }
+    },
+    question3: {
+      get() {
+        return this.$store.state.question3
+      },
+      set(value) {
+        this.$store.state.question3 = value
+      }
+    },
+  }
 }
 </script>
 
