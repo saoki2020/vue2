@@ -78,27 +78,27 @@ export default {
   computed: {
     question1: {
       get() {
-        return this.$store.state.question1
+        return this.$store.getters.getQuestion1
       },
       set(value) {
-        this.$store.state.question1 = value
+        this.$store.dispatch('commitQuestion1',value)
       }
     },
     question2: {
       get() {
-        return this.$store.state.question2
+        return this.$store.getters.getQuestion2
       },
       set(value) {
-        this.$store.state.question2 = value
+        this.$store.dispatch('commitQuestion2',value)
       }
     },
     question3: {
       get() {
-        return this.$store.state.question3
+        return this.$store.getters.getQuestion3
       },
       set(value) {
-        this.$store.state.question3 = value
-      }
+        this.$store.dispatch('commitQuestion3',value)
+      },
     },
   }
 }

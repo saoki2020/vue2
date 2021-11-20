@@ -47,18 +47,18 @@ export default {
   computed: {
     sexData: {
       get() {
-        return this.$store.state.sex
+        return this.$store.getters.getSex
       },
       set(value) {
-        this.$store.commit('setSex',value)
+        this.$store.dispatch('commitSex', value)
       }
     },
     birthDay: {
       get() {
-        return this.$store.state.birthday
+        return this.$store.getters.getBirthDay
       },
       set(value) {
-        this.$store.commit('setBirthDay',value)
+        this.$store.dispatch('commitBirthDay',value)
       }
     },
   }

@@ -38,11 +38,11 @@ export default {
   computed: {
     consult: {
       get() {
-        return this.$store.state.consultation
+        return this.$store.getters.getConsult
       },
       set(value) {
-        this.$store.commit('setConsult',value)
-      }
+        this.$store.dispatch('commitConsult',value)
+      },
     }
   }
 }
