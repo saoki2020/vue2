@@ -21,6 +21,11 @@ const routes = [
   name: 'myForm3',
   component: () => import('../views/myForm3.vue')
   },
+  {
+  path: '/Confirm',
+  name: 'Confirm',
+  component: () => import('../views/Confirm.vue')
+  },
 ]
 
 const router = new VueRouter({

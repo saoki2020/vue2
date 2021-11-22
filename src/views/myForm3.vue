@@ -15,7 +15,7 @@
               <div class="field">
                 <label class="label">-ご相談内容-</label>
                 <div class="control">
-                  <input type="textarea" class="textarea">
+                  <input type="textarea" class="textarea" v-model="consult">
                 </div>
               </div>
             </form>
@@ -26,7 +26,7 @@
   </div>
   <div class="has-text-centered">
     <router-link :to="{name:'myForm2'}"><button class="button is-primary">前へ戻る</button></router-link>
-    <router-link :to="{name:'myForm3'}"><button class="button is-primary">次へ進む</button></router-link>
+    <router-link :to="{name:'Confirm'}"><button class="button is-primary">次へ進む</button></router-link>
   </div>
 </div>
 
@@ -35,6 +35,16 @@
 <script>
 export default {
   name: 'myForm3',
+  computed: {
+    consult: {
+      get() {
+        return this.$store.getters.getConsult
+      },
+      set(value) {
+        this.$store.dispatch('commitConsult',value)
+      },
+    }
+  }
 }
 </script>
 

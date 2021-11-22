@@ -16,17 +16,17 @@
               <label class="label">-性別-</label>
                 <div class="control">
                   <label class="radio">
-                    <input type="radio" name="sex">男性
+                    <input type="radio" name="sex" v-model="sexData" value="男性">男性
                   </label>
                   <label class="radio">
-                    <input type="radio" name="sex">女性
+                    <input type="radio" name="sex" v-model="sexData" value="女性">女性
                   </label>
                 </div>
               </div>
               <div class="field">
                 <label class="label">-生年月日-</label>
                 <div class="control">
-                <input type="date" class="input">
+                <input type="date" class="input" v-model="birthDay">
                 </div>
               </div>
             </form>
@@ -38,13 +38,30 @@
     <div class="has-text-centered">
       <router-link :to="{name:'myForm2'}"><button class="button is-primary">次へ進む</button></router-link>
     </div>
-
 </div>
 </template>
 
 <script>
 export default {
   name: 'myForm1',
+  computed: {
+    sexData: {
+      get() {
+        return this.$store.getters.getSex
+      },
+      set(value) {
+        this.$store.dispatch('commitSex', value)
+      }
+    },
+    birthDay: {
+      get() {
+        return this.$store.getters.getBirthDay
+      },
+      set(value) {
+        this.$store.dispatch('commitBirthDay',value)
+      }
+    },
+  }
 }
 
 </script>
